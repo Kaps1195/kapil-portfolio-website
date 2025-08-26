@@ -62,6 +62,16 @@
   }
 }
 
+@keyframes bubbleUp {
+  0% { transform: translateY(0) scale(1); }
+  100% { transform: translateY(-120vh) scale(1.2); }
+}
+.animate-bubble {
+  animation-name: bubbleUp;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
 @layer base {
   :root {
     --background: 210 40% 98%;
