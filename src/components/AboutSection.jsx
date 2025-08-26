@@ -15,7 +15,7 @@ export const AboutSection = () => {
                     <div className="space-y-6">
                         <h3 className="text-2xl font-semibold">Software Engineer</h3>
                         <p className="text-muted-foreground">
-                            An experienced backend software engineer with 5+ years of experience working on Node.js, Python and Golang. Also, dipping my toes into frontend development with React, Vue.js and TypeScript.
+                                I’m a backend-focused Software Engineer with 5+ years of experience building scalable systems using Node.js, Python, and Golang. Alongside backend expertise, I’m currently exploring frontend frameworks like React, Vue.js, and TypeScript to add in to my expertise. My passion lies in designing reliable architectures, integrating cloud services, and optimizing systems for performance and growth.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
                             <a href="#contact" className="cosmic-button">
@@ -46,7 +46,7 @@ export const AboutSection = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Architecture </h4>
-                                    <p className="text-muted-foreground">Creating scalable backends as per project specific needs, conducting code reviews, best practices and a lot more!</p>
+                                    <p className="text-muted-foreground">Designing backend architectures tailored to business needs, driving best practices through code reviews and technical leadership.</p>
                                 </div>                                
                             </div>                            
                         </div>
@@ -57,7 +57,7 @@ export const AboutSection = () => {
                                 </div>
                                 <div className="text-left">
                                     <h4 className="font-semibold text-lg"> Project Management </h4>
-                                    <p className="text-muted-foreground">Leading projects from conception to completion with agile methodologies.</p>
+                                    <p className="text-muted-foreground">Leading projects from design to deployment using Agile methodologies, ensuring timely delivery and cross-team collaboration.</p>
                                 </div>                                
                             </div>                            
                         </div>
