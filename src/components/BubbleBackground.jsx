@@ -26,7 +26,7 @@ export const BubbleBackground = () => {
   };
 
   return (
-    <div className="fixed inset-0 overflow-hidden pointer-events-none z-0 bg-gradient-to-b from-blue-900 via-purple-900 to-black">
+    <div className="fixed inset-0 overflow-hidden pointer-events-none z-0 bg-gradient-to-b from-slate-900 via-slate-800 to-slate-700">
       {bubbles.map((bubble) => (
         <div
           key={bubble.id}
