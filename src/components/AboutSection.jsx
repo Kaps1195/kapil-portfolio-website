@@ -1,4 +1,4 @@
-import { Briefcase, Code, User } from "lucide-react";
+import { Briefcase, Code, CircuitBoard } from "lucide-react";
 
 export const AboutSection = () => {
     return (
@@ -21,7 +21,7 @@ export const AboutSection = () => {
                             <a href="#contact" className="cosmic-button">
                                 Get in touch
                             </a>
-                            <a href="" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
+                            <a href="https://drive.google.com/file/d/1vCFLsE6IX1CvEdqPrIXzVcaZG3Gha-r-/view?usp=sharing" className="px-6 py-2 rounded-full border border-primary text-primary hover:bg-primary/10 transition-colors duration-300">
                                 Download CV
                             </a>                       
                         </div>
@@ -34,19 +34,19 @@ export const AboutSection = () => {
                                     <Code className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Engineering </h4>
-                                    <p className="text-muted-foreground">Creating scalable backends as per project specific needs and not vibe coding and creating a headache</p>
+                                    <h4 className="font-semibold text-lg"> Scalable Backends </h4>
+                                    <p className="text-muted-foreground">Building reliable APIs and services optimized for performance and growth</p>
                                 </div>
                             </div>
                         </div>
                         <div className="gradient-border p-6 card-hover">
                             <div className="flex items-start gap-4">
                                 <div className="p-3 rounded-full bg-primary/10">
-                                    <User className="h-6 w-6 text-primary"/>
+                                    <CircuitBoard className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Engineering </h4>
-                                    <p className="text-muted-foreground">Creating scalable backends as per project specific needs and not vibe coding and creating a headache</p>
+                                    <h4 className="font-semibold text-lg"> Architecture </h4>
+                                    <p className="text-muted-foreground">Creating scalable backends as per project specific needs, conducting code reviews, best practices and a lot more!</p>
                                 </div>                                
                             </div>                            
                         </div>
@@ -56,8 +56,8 @@ export const AboutSection = () => {
                                     <Briefcase className="h-6 w-6 text-primary"/>
                                 </div>
                                 <div className="text-left">
-                                    <h4 className="font-semibold text-lg"> Engineering </h4>
-                                    <p className="text-muted-foreground">Creating scalable backends as per project specific needs and not vibe coding and creating a headache</p>
+                                    <h4 className="font-semibold text-lg"> Project Management </h4>
+                                    <p className="text-muted-foreground">Leading projects from conception to completion with agile methodologies.</p>
                                 </div>                                
                             </div>                            
                         </div>
